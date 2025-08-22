@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music-player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    
+</head>
+<body style="background-image: url(images/images.jpeg);">
+    <div id="outer">
+<div id="box"> 
+</div>
+ <marquee id="b"> Arjit singh</marquee>
+ <div style="padding-left:40px;padding-right:40px;" id="player">
+    <audio id="audio"></audio>
+    <div id="controls">
+        <span id="current">0:00</span>
+        <input type="range" id="progress" min="0" max="100" value="0">
+        <span id="duration">0:00</span>
+    </div>
+</div>
+
+ <audio src="music/Saiyaara(KoshalWorld.Com).mp3" id="audio"></audio>
+ <div id="btn">
+    <i class="fa-solid fa-backward fa-lg" onclick="bck()"></i>
+    <i class="fa-solid fa-play fa-lg" id="pl"onclick="aplay()"></i>
+    <i class="fa-solid fa-pause" id="pa" onclick="apause()"></i>
+     <i class="fa-solid fa-forward fa-lg" onclick="nxt()"></i>
+
+ </div>
+    </div>
+    <script src="js/script.js" ></script>
+</body>
+</html>
