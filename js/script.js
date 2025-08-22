@@ -1,6 +1,7 @@
 var a=document.getElementById("audio");
 var arr=[
     {
+<<<<<<< HEAD
         "song": "music/Tum Hi Ho - Aashiqui 2 128 Kbps.mp3",
         "singer": "Arjit Singh",
         "image":"images/Tumhiho.jpg",
@@ -21,10 +22,21 @@ var arr=[
    {
         "song": "music/Akhiyaan Gulaab - Teri Baaton Mein Aisa Uljha Jiya 128 Kbps.mp3",
         "singer": "Mitraj",
+=======
+        "song": "music/Saiyaara(KoshalWorld.Com).mp3",
+        "title": "Saiyaara",
+        "image":"images/indian-singer-arijit-singh.jpg",
+        
+    },
+   {
+        "song": "music/Akhiyaan Gulaab - Teri Baaton Mein Aisa Uljha Jiya 128 Kbps.mp3",
+        "title": "Mitraj",
+>>>>>>> 5b5fcd23a183ba7b489d750bdeede96c6aa48e3d
         "image":"images/mitraj1.jpeg"
     },
      {
         "song": "music/Ishq - Mitraz 128 Kbps.mp3",
+<<<<<<< HEAD
         "singer": "Mitraj",
         "image":"images/mitraj2.jpeg"
     },
@@ -36,16 +48,32 @@ var arr=[
      {
         "song": "music/Manave - The PropheC 128 Kbps.mp3",
         "singer": "Mitraj",
+=======
+        "title": "Mitraj",
+        "image":"images/mitraj2.jpeg"
+    },
+     {
+        "song": "music/Manave - The PropheC 128 Kbps.mp3",
+        "title": "Mitraj",
+>>>>>>> 5b5fcd23a183ba7b489d750bdeede96c6aa48e3d
         "image":"images/mitraj3.jpeg"
     },
      {
         "song": "music/Saajna - Mitraz 128 Kbps.mp3",
+<<<<<<< HEAD
         "singer": "Mitraj",
+=======
+        "title": "Mitraj",
+>>>>>>> 5b5fcd23a183ba7b489d750bdeede96c6aa48e3d
         "image":"images/mitraj1.jpeg"
     },
     {
         "song": "music/Khayaal - Zehen 128 Kbps.mp3",
+<<<<<<< HEAD
         "singer": "Mitraj",
+=======
+        "title": "Mitraj",
+>>>>>>> 5b5fcd23a183ba7b489d750bdeede96c6aa48e3d
         "image":"images/mitraj3.jpeg"
     }
 ]
@@ -69,10 +97,15 @@ function nxt(){
         i=0;
     }
     a.src=arr[i].song;
+<<<<<<< HEAD
     document.getElementById("pl").style.display="none";
     document.getElementById("pa").style.display="inline";
     document.getElementById("box").style.backgroundImage="url("+arr[i].image+")";
     document.getElementById("b").innerHTML=arr[i].singer;
+=======
+    document.getElementById("box").style.backgroundImage="url("+arr[i].image+")";
+    document.getElementById("box").style.innerHTML="arr[i].title";
+>>>>>>> 5b5fcd23a183ba7b489d750bdeede96c6aa48e3d
     a.play();
 }
 function bck(){
@@ -81,6 +114,7 @@ function bck(){
         i=arr.length-1;
     }
     a.src=arr[i].song;
+<<<<<<< HEAD
     document.getElementById("pl").style.display="none";
     document.getElementById("pa").style.display="inline";
     document.getElementById("box").style.backgroundImage="url("+arr[i].image+")";
@@ -122,3 +156,9 @@ function formatTime(seconds) {
     if (sec < 10) sec = "0" + sec;
     return min + ":" + sec;
 }
+=======
+    document.getElementById("box").style.backgroundImage="url("+arr[i].image+")";
+    document.getElementById("box").style.innerHTML="arr[i].title";
+    a.play();
+}
+>>>>>>> 5b5fcd23a183ba7b489d750bdeede96c6aa48e3d
