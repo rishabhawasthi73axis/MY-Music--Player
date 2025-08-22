@@ -47,13 +47,11 @@ var arr=[
      {
         "song": "music/Manave - The PropheC 128 Kbps.mp3",
         "singer": "Mitraj",
-        
         "image":"images/mitraj2.jpeg"
     },
      {
         "song": "music/Manave - The PropheC 128 Kbps.mp3",
         "singer": "Mitraj",
-
         "image":"images/mitraj3.jpeg"
     },
      {
