@@ -20,17 +20,16 @@ var arr=[
         
     },
    {
-        "song": "music/Akhiyaan Gulaab - Teri Baaton Mein Aisa Uljha Jiya 128 Kbps.mp3",
-        "singer": "Mitraj",
+       
    
         "song": "music/Saiyaara(KoshalWorld.Com).mp3",
-        "title": "Saiyaara",
+        "singer": "Saiyaara",
         "image":"images/indian-singer-arijit-singh.jpg",
         
     },
    {
         "song": "music/Akhiyaan Gulaab - Teri Baaton Mein Aisa Uljha Jiya 128 Kbps.mp3",
-        "title": "Mitraj",
+        "singer": "Mitraj",
 
         "image":"images/mitraj1.jpeg"
     },
@@ -48,13 +47,12 @@ var arr=[
      {
         "song": "music/Manave - The PropheC 128 Kbps.mp3",
         "singer": "Mitraj",
-
-        "title": "Mitraj",
+        
         "image":"images/mitraj2.jpeg"
     },
      {
         "song": "music/Manave - The PropheC 128 Kbps.mp3",
-        "title": "Mitraj",
+        "singer": "Mitraj",
 
         "image":"images/mitraj3.jpeg"
     },
@@ -62,7 +60,7 @@ var arr=[
         "song": "music/Saajna - Mitraz 128 Kbps.mp3",
 
         "singer": "Mitraj",
-        "title": "Mitraj",
+        
 
         "image":"images/mitraj1.jpeg"
     },
@@ -70,7 +68,7 @@ var arr=[
         "song": "music/Khayaal - Zehen 128 Kbps.mp3",
 
         "singer": "Mitraj",
-        "title": "Mitraj",
+        
 
         "image":"images/mitraj3.jpeg"
     }
